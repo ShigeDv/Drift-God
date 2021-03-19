@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background: #000;
+    overflow-x: hidden;
+}
+.video{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 20%;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    max-width: 1920px;
+    height: 60px;
+    background-color: #000;
+    border-bottom: 1px solid #111;
+    z-index: 20;
+}
+.header div{
+    position: fixed;
+    left: 140px;
+}
+.header div ul li a{
+    color: #ffffff;
+    font-size: 19px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    top: 15px;
+    left: 30px;
+    padding: 30px;
+    flex-wrap: nowrap;
+    transition: all .5s;
+}
+.novedades{
+    position: relative;
+    left: 250px;
+    top: -23px;
+}
+.developer{
+    list-style: none;
+    position: relative;
+    left: 580px;
+    top: -69px;
+}
+.header div ul li a:hover{
+    color: #D80009;
+}
+.img{
+    z-index: 0;
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+#logo{
+    z-index: 1;
+    background: transparent;
+    position: fixed;
+    left: 20px;
+    top: 15px;
+    width: 130px;
+    height: 36px;
+    color: transparent;
+    cursor: pointer;
+}
+.descarga{
+    position: relative;
+    left: 420px;
+    top: -46px;
+}
+#aboutMe{
+    list-style: none;
+    height: 60px;
+    width: 150px;
+    position: absolute;
+    left: 1500px;
+    top: 0px;
+    padding: 10px 15px ;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+#aboutMe:hover{
+    color: #000;
+}
+.btn{
+    position: relative;
+    top: 470px;
+    left: 820px;
+    padding: 10px 30px;
+    margin: 0 15px;
+    color: #D80009;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 25px;
+    overflow: hidden;
+    transition: .5s;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0003);
+}
+.btn:hover{
+    color: #111;
+    background:#D80009;
+    box-shadow: 0 0 50px #D80009;
+    transition-delay: .5s;
+}
+.btn::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #D80009;
+    border-left: 2px solid #D80009;
+    transition: .5s;
+    transition-delay: 0s;
+}
+.btn:hover::before{
+    width: 95%;
+    height: 95%;
+    transition-delay: 0s;
+}
+
+.btn::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #D80009;
+    border-right: 2px solid #D80009;
+    transition: .5s;
+}
+.btn:hover::after{
+    width: 99%;
+    height: 97%;
+    transition-delay: .0s;
+}
+#acercaDe{
+    width: 100%;
+    height: 530px;
+    background-color: #000;
+    position: relative;
+    top: 1080px;
+    color: #fff;
+    z-index: 1;
+}
+#acercaDe div h2{
+    position: relative;
+    font-size: 30px;
+    top: 100px;
+    left: 43%;
+}
+#acercaDe div p{
+    font-size: 26px;
+    font-weight: 700;
+    position: relative;
+    top: 200px;
+    left: 10%;
+}
+
+#novedades{
+    width: 100%;
+    height: 530px;
+    background-color: #fff;
+    position: relative;
+    top: 1080px;
+    color: #000;
+    z-index: 1;
+}
+#novedades div h2{
+    position: relative;
+    font-size: 30px;
+    top: 100px;
+    left: 43%;
+}
+#novedades div p{
+    font-size: 26px;
+    position: relative;
+    top: 200px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+#descarga{
+    width: 100%;
+    height: 230px;
+    background-color: #000;
+    position: relative;
+    top: 1080px;
+    color: #fff;
+}
+#descarga div h2{
+    position: absolute;
+    font-size: 30px;
+    max-width: 1920px;
+    top: 100px;
+    left: 43%;
+}
+#descarga div p a{
+    text-decoration: none;
+    max-width: 250px;
+    color: #D80009;
+    font-size: 26px;
+    position: relative;
+    display: flex;
+    top: 200px;
+    left: 40%;
+}
+#descarga div p a:hover{
+    color: #000;
+}
+#aboutMe{
+    position: absolute;
+}
+#team{
+    height: 200px;
+    width: 200px;
+}
+
+.donaciones{
+    list-style: none;
+    position: relative;
+    left: 810px;
+    top: -92px;
+}
