@@ -43,13 +43,13 @@ body{
 }
 .novedades{
     position: relative;
-    left: 250px;
+    left: 230px;
     top: -23px;
 }
 .developer{
     list-style: none;
     position: relative;
-    left: 580px;
+    left: 515px;
     top: -69px;
 }
 .header div ul li a:hover{
@@ -76,7 +76,7 @@ body{
 }
 .descarga{
     position: relative;
-    left: 420px;
+    left: 340px;
     top: -46px;
 }
 #aboutMe{
@@ -238,6 +238,6 @@ li{
 .donaciones{
     list-style: none;
     position: relative;
-    left: 810px;
+    left: 690px;
     top: -92px;
 }
